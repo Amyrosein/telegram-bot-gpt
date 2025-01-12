@@ -29,7 +29,7 @@ class StartCommand extends Command
 
         // Replace placeholder with the actual first name
         $this->replyWithMessage([
-            'text' => "سلام {$fallbackFirstName} به ربات خوش آمدید",
+            'text' => "سلام  عزیز{$fallbackFirstName} به ربات خوش آمدید",
         ]);
     }
 }
